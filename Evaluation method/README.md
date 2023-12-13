@@ -4,7 +4,10 @@ You can upload your algorithms [here](https://justraigs.grand-challenge.org/). I
 
 Here are some links that may also be useful:
 
-- [Tutorial on how to make an algorithm container on Grand Challenge](https://grand-challenge.org/documentation/create-your-own-algorithm/)
-- [Docker documentation](https://docs.docker.com/)
-- [Evalutils documentation](https://evalutils.readthedocs.io/en/latest/)
-- [Grand Challenge documentation](https://comic.github.io/grand-challenge.org/algorithms.html)
+* [Tutorial on how to make an algorithm container on Grand Challenge](https://grand-challenge.org/documentation/create-your-own-algorithm/)
+
+* [Docker documentation](https://docs.docker.com/)
+
+* [Evalutils documentation](https://evalutils.readthedocs.io/en/latest/)
+
+* [Grand Challenge documentation](https://comic.github.io/grand-challenge.org/algorithms.html)
