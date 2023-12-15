@@ -4,6 +4,7 @@ This Challenge Pack is a collection of JustRAIGS challenge codes and settings fo
 
 If you have any questions, feel free to reach out to me at yeganeh.madadi@gmail.com.
 
+
 ### ⚙️ Data uploading ⚙️
 Challenges pull their data for running phases from archives.
 
@@ -15,6 +16,7 @@ For this challenge, two archives exist:
 To upload data to archives, we've created an example script ./scripts/upload_to_justraigs-test-phase-data.py. This generates an archive_item_to_content_mapping.json that helps in setting up the evaluation method.
 
 The script requires Python, SimpleITK, and gc-api to be installed. Read more about setting up gc-api in the [grand-challenge.org documentation](https://grand-challenge.org/documentation/what-can-gc-api-be-used-for/).
+
 
 ### ⚙️ Example algorithm ⚙️
 
@@ -47,3 +49,22 @@ This should output something along the lines of:
 You can prep it for upload using:
 
     $  docker save example-algorithm | gzip -c > example-algorithm.tar.gz
+
+
+### ⚙️ Example evaluation method ⚙️
+
+An example evaluation method container is provided via: ./example-evaulation. It does not, currently, do any sensible evaluation.
+
+You can study it and run it by calling:
+
+    $ cd ./example-evaluation
+    $ docker build --tag example-evaluation . && \
+        rm -f test/output/* && \
+        docker run --rm \
+        --volume $(pwd)/test/input:/input \
+        --volume $(pwd)/test/output:/output \
+        example-evaluation
+
+You can prep it for upload using:
+
+    $  docker save example-evaluation | gzip -c > example-evaluation.tar.gz
