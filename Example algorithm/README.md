@@ -26,11 +26,11 @@ This codebase uses a not-so-smart algorithm that you may want to adapt to a smar
 
 1. Change the Dockerfile.
 
-*a. You may want to change FROM python:3.7-slim to another base image that already has some machine learning packages installed, such as FROM pytorch/pytorch:1.9.0-cuda11.1-cudnn8-runtime.
+  * a. You may want to change FROM python:3.7-slim to another base image that already has some machine learning packages installed, such as FROM pytorch/pytorch:1.9.0-cuda11.1-cudnn8-runtime.
 
-*b. Install the required packages (see comment in Dockerfile for an example).
+  * b. Install the required packages (see comment in Dockerfile for an example).
 
-*c. Copy additional files, such as model weights (see comment in Dockerfile for example).
+  * c. Copy additional files, such as model weights (see comment in Dockerfile for example).
 
 2. All the magic happens in inference.py, specifically in the predict function of the JustRAIGS_algorithm class in that file. This function reads a single image, processes it and outputs a dictionary with the four expected outputs. Replace the dummy code in this function with the code for your inference algorihm. You may also want to load your model weights etc. in the __init__ function and use them later in the predict function.
 
