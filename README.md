@@ -36,7 +36,7 @@ This should output something along the lines of:
     Torch CUDA is available: True
             number of devices: 1
             current device: 0
-            properties: _CudaDeviceProperties(name='NVIDIA GeForce GTX 1650 Ti', major=7, minor=5, total_memory=4095MB,         multi_processor_count=16)
+            properties: _CudaDeviceProperties(name='NVIDIA GeForce GTX 1650 Ti', major=7, minor=5, total_memory=4095MB,  multi_processor_count=16)
     =+==+==+==+==+==+==+==+==+==+=
     Input Files:
     [PosixPath('/input/2332ec76-d9ba-437f-b03b-1fbebaf99401.mha')]
