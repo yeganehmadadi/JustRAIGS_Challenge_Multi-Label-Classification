@@ -1,4 +1,4 @@
-## AIROGS Example Algorithm
+## JustRAIGS Example Algorithm
 
 This is an example repository for making an algorithm submission for the [JustRAIGS challenge](https://justraigs.grand-challenge.org/). This algorithm is just for inference of your model.
 
