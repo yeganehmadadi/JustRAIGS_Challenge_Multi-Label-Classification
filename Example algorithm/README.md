@@ -26,7 +26,7 @@ This codebase uses a not-so-smart algorithm that you may want to adapt to a smar
 
 #### 1. Change the Dockerfile.
 
-  * You may want to change ![FROM pytorch/pytorch] to another base image that already has some machine learning packages installed.
+  * You may want to change @@#f03c15[FROM pytorch/pytorch] to another base image that already has some machine learning packages installed.
   * Install the required packages (see comment in Dockerfile for an example).
   * Copy additional files, such as model weights (see comment in Dockerfile for example).
 
