@@ -2,6 +2,19 @@
 
 This is an example repository for making an algorithm submission for the [JustRAIGS challenge](https://justraigs.grand-challenge.org/). This algorithm is just for inference of your model.
 
+### Task 1: Referral performance
+The algorithm will input the images and will output the binary labels (0 or 1) along with the likelihood.
+No referable glaucoma: 0
+Referable glaucoma:1
+![image](https://github.com/yeganehmadadi/JustRAIGS_Challenge_Multi-Label-Classification/assets/44732616/975cf867-9de4-4a44-b2f4-089dc07f30b0)
+
+### Task 2: Justification performance
+The algorithm will output binary labels (0,1) for each ten additional features for only referable glaucoma. For example, if image is classified as referral glaucoma in task 1 then classification of ten additional features is required.
+Feature is absent: 0
+Feature is present: 1
+![image](https://github.com/yeganehmadadi/JustRAIGS_Challenge_Multi-Label-Classification/assets/44732616/8b608cf7-47ce-4c91-943c-566f8a2725dd)
+
+
 You can upload your algorithms [here](https://justraigs.grand-challenge.org/). If you have a verified account on Grand Challenge and are accepted as a participant in the JustRAIGS challenge, you should be able to submit your Docker container. If something does not work for you, please do not hesitate to [contact us](mailto:yeganeh.madadi@gmail.com) or add a post to the [forum](https://justraigs.grand-challenge.org).
 
 Here are some links that may also be useful:
