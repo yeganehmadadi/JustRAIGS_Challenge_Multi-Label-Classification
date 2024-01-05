@@ -46,7 +46,7 @@ This codebase uses a not-so-smart algorithm that you may want to adapt to a smar
   * Install the required packages.
   * Copy additional files, such as model weights.
 
-#### 2. After developing your algorithm, generate a Docker container image.
+#### 2. After developing your algorithm, generate a docker container image.
 
 #### 3. On the page of your new algorithm, go to Containers in the menu on the left and click Upload a Container. Now you can upload your .tar.gz file of the Docker container image. You could also not build the container, but use a GitHub repo. Then you should click Link GitHub Repo instead. It will take some time before your Docker container is Ready. Do not proceed with the following steps, once this is the case.
 
