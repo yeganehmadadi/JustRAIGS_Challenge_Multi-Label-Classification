@@ -2,7 +2,7 @@
 
 This is an example repository for making an algorithm submission for the [JustRAIGS challenge](https://justraigs.grand-challenge.org/). This algorithm is just for inference of your model.
 
-You can upload your algorithms [here](https://justraigs.grand-challenge.org/evaluation/development-phase/submissions/create/). If you have a verified account on Grand Challenge and are accepted as a participant in the JustRAIGS challenge, you should be able to submit your Docker container. If something does not work for you, please do not hesitate to [contact us](mailto:yeganeh.madadi@gmail.com) or add a post to the [forum](https://justraigs.grand-challenge.org).
+You can upload your algorithms [here](https://justraigs.grand-challenge.org/). If you have a verified account on Grand Challenge and are accepted as a participant in the JustRAIGS challenge, you should be able to submit your Docker container. If something does not work for you, please do not hesitate to [contact us](mailto:yeganeh.madadi@gmail.com) or add a post to the [forum](https://justraigs.grand-challenge.org).
 
 Here are some links that may also be useful:
 
