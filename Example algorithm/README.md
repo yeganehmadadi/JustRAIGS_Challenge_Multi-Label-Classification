@@ -7,7 +7,7 @@ The algorithm will input the images and will output the binary labels (0 or 1) a
 
 No referable glaucoma: 0, Referable glaucoma:1
 
-![image](https://github.com/yeganehmadadi/JustRAIGS_Challenge_Multi-Label-Classification/assets/44732616/975cf867-9de4-4a44-b2f4-089dc07f30b0)
+![image](https://github.com/yeganehmadadi/JustRAIGS_Challenge_Multi-Label-Classification/assets/44732616/18250910-a78d-40f1-acdc-70d1547a4dca)
 
 ### Task 2: Justification performance
 The algorithm will output binary labels (0,1) for each ten additional features for only referable glaucoma. For example, if image is classified as referral glaucoma in task 1 then classification of ten additional features is required.
@@ -17,7 +17,7 @@ Feature is absent: 0, Feature is present: 1
 ![image](https://github.com/yeganehmadadi/JustRAIGS_Challenge_Multi-Label-Classification/assets/44732616/8b608cf7-47ce-4c91-943c-566f8a2725dd)
 
 
-###
+###------------------------------------------------------
 You can upload your algorithms [here](https://justraigs.grand-challenge.org/). If you have a verified account on Grand Challenge and are accepted as a participant in the JustRAIGS challenge, you should be able to submit your Docker container. If something does not work for you, please do not hesitate to [contact us](mailto:yeganeh.madadi@gmail.com) or add a post to the [forum](https://justraigs.grand-challenge.org).
 
 Here are some links that may also be useful:
