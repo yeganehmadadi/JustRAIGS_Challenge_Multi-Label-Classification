@@ -16,8 +16,8 @@ Feature is absent: 0, Feature is present: 1
 
 ![image](https://github.com/yeganehmadadi/JustRAIGS_Challenge_Multi-Label-Classification/assets/44732616/8b608cf7-47ce-4c91-943c-566f8a2725dd)
 
+------------------------------------------------------
 
-###------------------------------------------------------
 You can upload your algorithms [here](https://justraigs.grand-challenge.org/). If you have a verified account on Grand Challenge and are accepted as a participant in the JustRAIGS challenge, you should be able to submit your Docker container. If something does not work for you, please do not hesitate to [contact us](mailto:yeganeh.madadi@gmail.com) or add a post to the [forum](https://justraigs.grand-challenge.org).
 
 Here are some links that may also be useful:
